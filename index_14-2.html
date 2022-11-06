@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style_14.css">
+    <title>Document</title>
+    
+</head>
+<body>
+    
+
+    <div id="tasks">
+        <div class="tasks_wrapper">
+            <form class="create-task-block">
+                <input 
+                name="taskName"
+                class="create-task-block__input default-text"
+                type="text"
+                placeholder="Создайте новую задачу"
+                value="Посмотреть урок по JavaScript"
+                >
+                <button
+                type="submit"
+                class="create-task-block__button default-text"
+                >
+                Создать  
+                </button>
+            </form>
+
+            <div class="tasks_wrapper">
+                <form class="create-task-block">
+                    <input 
+                    name="taskName"
+                    class="create-task-block__input default-text"
+                    type="text"
+                    placeholder="Создайте новую задачу"
+                    value="Посмотреть урок по JavaScript"
+                    >
+                    <button
+                    type="submit"
+                    class="create-task-block__button default-text"
+                    >
+                    Создать  
+                    </button>
+                </form>
+
+            <div class="tasks-list">
+                <div class="task-item" data-task-id="1">
+                    <div class="task-item__main-container">
+                        <div class="task-item__main-content">
+                            <input class="checkbox-form">
+                                <input class="checkbox-form__checkbox">
+                                <label for="task-1"></label>
+                            </form>
+                            <span class="task-item__text"> посмотреть новый урок по JS</span>
+                        </div>
+                        <button class="task-item__delete-button default-text">
+                            Удалить
+                        </button>
+                    </div>     
+                </div>
+
+                <div class="task-item" data-task-id="2">
+                    <div class="task-item__main-container">
+                        <div class="task-item__main-content">
+                            <form class="checkbox-form">
+                                <input class="checkbox-form__checkbox">
+                                <label for="task-2"></label>
+                            </form>
+                            <span class="task-item__text"> Cделать ДЗ к уроку по JavaScript</span>
+                        </div>
+                        <button class="task-item__delete-button default-text">
+                            Удалить
+                        </button>
+                    </div>     
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="main-navigation">
+    <a class="main-navigation__button-item" href="#tasks_today"  data-button-id="1">Задачи на сегодня</a>
+    <a class="main-navigation__button-item" href="#tasks_week" data-button-id="2">Задачи на эту неделю</a>
+    <a class="main-navigation__button-item" href="#tasks_later" data-button-id="3">Задачи на потом</a>
+    <a class="main-navigation__button-item" href="#tasks_later" data-button-id="4">Задачи на потом 2</a>
+</div>
+    <script src="js/index_14-2.js"></script>
+</body>
+</html>

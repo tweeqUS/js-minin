@@ -1,0 +1,20 @@
+html {
+    background-color: gold;
+}
+
+form, div, p {
+    border: 1px solid black;
+    border-radius: none;
+}
+
+form {
+    margin: 20px;
+}
+
+div {
+    margin: 10px;
+}
+
+p {
+    margin: 10px;
+}
